@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // 1) Answer to the Q.No-1
+        function calculateDifference(num1, num2) 
+        {
+
+            return num1 - num2;
+
+        }
+
+        // 2) Answer to the Q.No-2
+                function isOdd(num) 
+                {
+
+                    return num % 2 !== 0;
+
+                }
+
+        // 3) Answer to the Q.No-3
+        function findMin(arr) 
+        {
+            
+            return Math.min(...arr);
+
+        }
+
+        // 4) Answer to the Q.No-4
+        function filterEvenNumbers(arr) 
+        {
+
+            return arr.filter(num => num % 2 === 0);
+
+        }
+
+        // 5) Answer to the Q.No-5
+        function sortArrayDescending(arr) 
+        {
+            
+            return arr.sort((a, b) => b - a);
+
+        }
+
+        // 6) Answer to the Q.No-6
+        function lowercaseFirstLetter(str) 
+        {
+
+            return str.charAt(0).toLowerCase() + str.slice(1);
+
+        }
+
+        // 7) Answer to the Q.No-7
+        function countVowels(str) 
+        {
+
+            const vowels = 'aeiouAEIOU';
+            let count = 0;
+            for (let char of str) {
+                if (vowels.includes(char)) {
+                    count++;
+                }
+            }
+            return count;
+
+        }
+
+        // 8) Answer to the Q.No-8
+        function findAverage(arr) 
+        {
+
+            return arr.reduce((total, num) => total + num, 0) / arr.length;
+            
+        }
+
+
+    </script>
+</body>
+</html>
